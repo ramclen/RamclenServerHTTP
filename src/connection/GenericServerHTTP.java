@@ -12,7 +12,7 @@ import java.util.HashMap;
 
 import static com.ramclen.exceptionRunner.ExceptionHandler.getSafe;
 
-public class RamclenServerHTTP {
+public class GenericServerHTTP {
     private static MapRequestDictionary requestDictionary = new MapRequestDictionary();
     private static HttpService httpService;
 
@@ -29,5 +29,17 @@ public class RamclenServerHTTP {
     public static void setPath(String url, Handler handler) {
         requestDictionary.put(url, handler);
     }
+
+    public static void get(String path, Handler handler) {
+        setPath("GET:" + path, handler);
+    }
+
+    public static void post(String path, Handler handler) {
+        setPath("POST:" + path, handler);
+    }
+
+    public static void delete(String path, Handler handler) {
+            setPath("DELETE:" + path, handler);
+        }
 
 }
