@@ -36,7 +36,7 @@ public class GenericServerHTTP {
     }
 
     public static void delete(String path, Handler handler) {
-            setPath("DELETE:" + path, handler);
-        }
+        setPath("DELETE:" + path, handler);
+    }
 
 }
