@@ -1,10 +1,10 @@
-package connection.controller;
+package Framework.controller;
 
 import spark.Route;
 import spark.Spark;
 import spark.SparkBase;
-import connection.model.conection.HttpRequest;
-import connection.model.proccesor.RequestProcessor;
+import Framework.model.conection.HttpRequest;
+import Framework.model.proccesor.RequestProcessor;
 
 public class HttpSparkService implements HttpService{
     private RequestProcessor requestProcessor;

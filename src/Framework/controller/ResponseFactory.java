@@ -1,8 +1,8 @@
-package connection.controller;
+package Framework.controller;
 
-import connection.model.conection.HttpResponse;
-import connection.model.conection.Request;
-import connection.model.conection.Response;
+import Framework.model.conection.HttpResponse;
+import Framework.model.conection.Request;
+import Framework.model.conection.Response;
 import org.apache.http.client.methods.CloseableHttpResponse;
 
 import java.io.BufferedReader;

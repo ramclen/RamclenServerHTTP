@@ -1,7 +1,7 @@
-package connection.model.proccesor;
+package Framework.model.proccesor;
 
-import connection.model.conection.Request;
-import connection.model.handler.Handler;
+import Framework.model.conection.Request;
+import Framework.model.handler.Handler;
 
 import java.util.HashMap;
 

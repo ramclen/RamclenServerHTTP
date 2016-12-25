@@ -1,4 +1,4 @@
-package connection.model.conection;
+package Framework.model.conection;
 
 public class HttpResponse implements Response{
     private final String message;

@@ -1,12 +1,12 @@
-package connection.model.handler;
+package Framework.model.handler;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import connection.model.conection.HttpRequest;
-import connection.model.conection.HttpResponse;
-import connection.model.conection.Request;
-import connection.model.conection.Response;
-import connection.model.proccesor.Processor;
+import Framework.model.conection.HttpRequest;
+import Framework.model.conection.HttpResponse;
+import Framework.model.conection.Request;
+import Framework.model.conection.Response;
+import Framework.model.proccesor.Processor;
 import org.json.simple.parser.ParseException;
 
 import java.io.ByteArrayInputStream;

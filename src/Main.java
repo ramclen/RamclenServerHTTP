@@ -1,7 +1,7 @@
-import connection.controller.HttpSparkService;
-import connection.model.conection.HttpResponse;
+import Framework.controller.HttpSparkService;
+import Framework.model.conection.HttpResponse;
 
-import static connection.GenericServerHTTP.*;
+import static Framework.GenericServerHTTP.*;
 
 public class Main {
 

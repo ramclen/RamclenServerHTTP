@@ -1,14 +1,11 @@
-package connection;
+package Framework;
 
-import connection.controller.HttpService;
-import connection.model.conection.Request;
-import connection.model.handler.Handler;
-import connection.model.proccesor.MapRequestDictionary;
-import connection.model.proccesor.RequestDictionary;
-import connection.model.proccesor.RequestProcessor;
+import Framework.controller.HttpService;
+import Framework.model.handler.Handler;
+import Framework.model.proccesor.MapRequestDictionary;
+import Framework.model.proccesor.RequestProcessor;
 
 import java.lang.reflect.Constructor;
-import java.util.HashMap;
 
 import static com.ramclen.exceptionRunner.ExceptionHandler.getSafe;
 

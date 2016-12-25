@@ -1,9 +1,9 @@
-package connection.model.handler;
+package Framework.model.handler;
 
 import com.sun.net.httpserver.HttpExchange;
 import org.json.simple.parser.ParseException;
-import connection.model.conection.HttpRequest;
-import connection.model.conection.Request;
+import Framework.model.conection.HttpRequest;
+import Framework.model.conection.Request;
 
 import java.io.BufferedReader;
 import java.io.IOException;

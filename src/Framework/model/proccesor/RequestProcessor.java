@@ -1,8 +1,8 @@
-package connection.model.proccesor;
+package Framework.model.proccesor;
 
-import connection.model.conection.Request;
-import connection.model.conection.Response;
-import connection.model.handler.Handler;
+import Framework.model.conection.Request;
+import Framework.model.conection.Response;
+import Framework.model.handler.Handler;
 
 import java.io.IOException;
 
