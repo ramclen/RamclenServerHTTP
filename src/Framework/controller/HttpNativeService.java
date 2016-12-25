@@ -1,8 +1,8 @@
-package connection.controller;
+package Framework.controller;
 
 import com.sun.net.httpserver.HttpServer;
-import connection.model.handler.HttpPetitionHandler;
-import connection.model.proccesor.Processor;
+import Framework.model.handler.HttpPetitionHandler;
+import Framework.model.proccesor.Processor;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

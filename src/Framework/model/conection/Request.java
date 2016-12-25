@@ -1,4 +1,4 @@
-package connection.model.conection;
+package Framework.model.conection;
 
 import java.net.URI;
 

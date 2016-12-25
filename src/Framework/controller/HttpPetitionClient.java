@@ -1,12 +1,12 @@
-package connection.controller;
+package Framework.controller;
 
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpEntityEnclosingRequestBase;
 import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClients;
-import connection.model.conection.Request;
-import connection.model.conection.Response;
+import Framework.model.conection.Request;
+import Framework.model.conection.Response;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
